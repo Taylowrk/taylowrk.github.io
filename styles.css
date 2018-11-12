@@ -17,8 +17,8 @@ pre {
     color: #FFFFFF;
     font-family: 'Courier New', Courier, monospace;
 }
- /* unvisited link */
- a:link {
+/* unvisited link */
+a:link {
     color: white;
 }
 
