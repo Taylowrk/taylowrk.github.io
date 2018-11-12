@@ -17,3 +17,22 @@ pre {
     color: #FFFFFF;
     font-family: 'Courier New', Courier, monospace;
 }
+ /* unvisited link */
+ a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: #888888;
+}
+
+/* mouse over link */
+a:hover {
+    color: #AAAAAA;
+}
+
+/* selected link */
+a:active {
+    color: #888888;
+} 
