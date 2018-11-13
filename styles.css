@@ -3,7 +3,7 @@ body {
 }
 @font-face {
     font-family: 'OpenSans-Bold';
-    src: url('../files/fonts/OpenSans-Bold.ttf');
+    src: url('https://fonts.googleapis.com/css?family=Open+Sans');
 }
 h1 {
     color: #FFFFFF;
@@ -48,4 +48,13 @@ a:active {
     background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+::-moz-selection { /* Code for Firefox */
+    color: #0d0d0d;
+    background: #639bff;
+}
+
+::selection {
+    color: #0d0d0d;
+    background: #639bff;
 }
