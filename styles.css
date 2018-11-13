@@ -1,21 +1,25 @@
 body {
     background-color: #0d0d0d;
 }
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../files/fonts/OpenSans-Bold.ttf');
+}
 h1 {
     color: #FFFFFF;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'OpenSans-Bold';
 }
 p {
     color: #FFFFFF;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'OpenSans-Bold';
 }
 h2 {
     color: #FFFFFF;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'OpenSans-Bold';
 }
 pre {
     color: #FFFFFF;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'OpenSans-Bold';
 }
 /* unvisited link */
 a:link {
