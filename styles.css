@@ -2,46 +2,37 @@ body {
     background-color: #0d0d0d;
 }
 h1 {
-    color: #FFFFFF;
+    color: rgb(255, 240, 220);
     font-family: 'Courier New', Courier, monospace;
 }
 p {
-    color: #FFFFFF;
+    color: rgb(255, 240, 220);
     font-family: 'Courier New', Courier, monospace;
 }
 h2 {
-    color: #FFFFFF;
+    color: rgb(255, 240, 220);
     font-family: 'Courier New', Courier, monospace;
 }
 pre {
-    color: #FFFFFF;
+    color: rgb(255, 240, 220);
     font-family: 'Courier New', Courier, monospace;
 }
 /* unvisited link */
 a:link {
-    color: white;
+    color: rgb(255, 240, 220);
 }
 
 /* visited link */
 a:visited {
-    color: #888888;
+    color: rgb(225, 210, 190);
 }
 
 /* mouse over link */
 a:hover {
-    color: #AAAAAA;
+    color: rgb(215, 200, 180);
 }
 
 /* selected link */
 a:active {
-    color: #888888;
-}
-#rainbow {
-    background: red;
-    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
-    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
-    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
-    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgb(225, 210, 190);
 }
