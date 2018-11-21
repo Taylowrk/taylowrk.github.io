@@ -6,7 +6,6 @@ body {
     src: url('https://fonts.googleapis.com/css?family=Open+Sans');
 }
 h1 {
-<<<<<<< HEAD
     color: rgb(255, 240, 220);
     font-family: 'Courier New', Courier, monospace;
 }
@@ -21,22 +20,6 @@ h2 {
 pre {
     color: rgb(255, 240, 220);
     font-family: 'Courier New', Courier, monospace;
-=======
-    color: #FFFFFF;
-    font-family: 'OpenSans-Bold';
-}
-p {
-    color: #FFFFFF;
-    font-family: 'OpenSans-Bold';
-}
-h2 {
-    color: #FFFFFF;
-    font-family: 'OpenSans-Bold';
-}
-pre {
-    color: #FFFFFF;
-    font-family: 'OpenSans-Bold';
->>>>>>> a2a94dacd07ecbd5a791fc8b1c97a1a784fd2b07
 }
 /* unvisited link */
 a:link {
@@ -55,27 +38,5 @@ a:hover {
 
 /* selected link */
 a:active {
-<<<<<<< HEAD
     color: rgb(225, 210, 190);
-=======
-    color: #888888;
-}
-#rainbow {
-    background: red;
-    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
-    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
-    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
-    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-::-moz-selection { /* Code for Firefox */
-    color: #0d0d0d;
-    background: #639bff;
-}
-
-::selection {
-    color: #0d0d0d;
-    background: #639bff;
->>>>>>> a2a94dacd07ecbd5a791fc8b1c97a1a784fd2b07
 }
