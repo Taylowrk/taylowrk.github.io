@@ -40,3 +40,13 @@ a:hover {
 a:active {
     color: rgb(225, 210, 190);
 }
+
+::-moz-selection { /* Code for Firefox */
+    color: #0d0d0d;
+    background: #639bff;
+}
+
+::selection {
+    color: #0d0d0d;
+    background: #639bff;
+}
